@@ -1,2 +1,4 @@
-# portfolio-template
-A template website for a personal portfolio.
+# Portfolio Template
+
+## About
+A template website for a personal photography portfolio.
