@@ -16,6 +16,18 @@ main {
 	grid-template-columns: 1fr;
 }
 
+.panel .text {
+	background-color: #eeeee7;
+	color: #323230;
+	padding: 1.875em 3.75em;
+}
+
+.panel.about img,
+.panel.photos img {
+	min-width: 100%;
+	min-height: 100%;
+}
+
 /* WELCOME PANEL */
 .panel.welcome {
 	background-color: #323230;
@@ -45,5 +57,13 @@ main {
 }
 
 /* ABOUT PANEL */
+.panel.about {
+	grid-template-rows: 3fr 1fr;
+	overflow: hidden;
+}
 
 /* PHOTOS PANEL */
+.panel.photos {
+	grid-template-rows: 1fr 3fr;
+	overflow: hidden;
+}
